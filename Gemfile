@@ -99,8 +99,8 @@ gem 'webpacker', '~> 5.2'
 gem 'webpush'
 gem 'webauthn', '~> 3.0.0.alpha1'
 
-gem 'json-ld'
-gem 'json-ld-preloaded', '~> 3.1'
+gem 'json-ld', '>= 3.2.4'
+gem 'json-ld-preloaded', '~> 3.1', '>= 3.1.4'
 gem 'rdf-normalize', '~> 0.4'
 
 group :development, :test do
