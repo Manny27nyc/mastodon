@@ -152,7 +152,7 @@ group :development do
 end
 
 group :production do
-  gem 'lograge', '~> 0.11'
+  gem 'lograge', '~> 0.13'
   gem 'redis-rails', '~> 5.0'
 end
 
