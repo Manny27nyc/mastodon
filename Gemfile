@@ -6,7 +6,7 @@ ruby '>= 2.5.0', '< 3.0.0'
 gem 'pkg-config', '~> 1.4'
 
 gem 'puma', '~> 5.1'
-gem 'rails', '~> 6.1.7.5'
+gem 'rails', '~> 5.2.4.5'
 gem 'sprockets', '~> 3.7.2'
 gem 'thor', '~> 1.0'
 gem 'rack', '~> 2.2.3'
@@ -42,7 +42,7 @@ end
 
 gem 'net-ldap', '~> 0.17'
 gem 'omniauth-cas', '~> 2.0'
-gem 'omniauth-saml', '~> 1.10'
+gem 'omniauth-saml', '~> 2.0', '>= 2.0.0'
 gem 'omniauth', '~> 1.9'
 gem 'omniauth-rails_csrf_protection', '~> 1.0', '>= 1.0.0'
 
@@ -64,7 +64,7 @@ gem 'kaminari', '~> 1.2', '>= 1.2.2'
 gem 'link_header', '~> 0.0'
 gem 'mime-types', '~> 3.3.1', require: 'mime/types/columnar'
 gem 'nilsimsa', git: 'https://github.com/witgo/nilsimsa', ref: 'fd184883048b922b176939f851338d0a4971a532'
-gem 'nokogiri', '~> 1.11'
+gem 'nokogiri', '~> 1.11', '>= 1.11.4'
 gem 'nsa', '~> 0.2', '>= 0.2.8'
 gem 'oj', '~> 3.10'
 gem 'ox', '~> 2.14'
@@ -81,7 +81,7 @@ gem 'redis', '~> 4.2', require: ['redis', 'redis/connection/hiredis']
 gem 'mario-redis-lock', '~> 1.2', require: 'redis_lock'
 gem 'rqrcode', '~> 1.2'
 gem 'ruby-progressbar', '~> 1.11'
-gem 'sanitize', '~> 5.2'
+gem 'sanitize', '~> 5.2', '>= 5.2.2'
 gem 'scenic', '~> 1.5', '>= 1.5.5'
 gem 'sidekiq', '~> 6.1'
 gem 'sidekiq-scheduler', '~> 3.0'
@@ -117,10 +117,10 @@ group :production, :test do
 end
 
 group :test do
-  gem 'capybara', '~> 3.34'
+  gem 'capybara', '~> 3.35', '>= 3.35.0'
   gem 'climate_control', '~> 0.2'
   gem 'faker', '~> 2.15'
-  gem 'microformats', '~> 4.2'
+  gem 'microformats', '~> 4.3', '>= 4.3.1'
   gem 'rails-controller-testing', '~> 1.0'
   gem 'rspec-sidekiq', '~> 3.1'
   gem 'simplecov', '~> 0.21', require: false
