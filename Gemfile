@@ -5,7 +5,7 @@ ruby '>= 2.5.0', '< 3.0.0'
 
 gem 'pkg-config', '~> 1.4'
 
-gem 'puma', '~> 5.1'
+gem 'puma', '~> 5.6', '>= 5.6.8'
 gem 'rails', '~> 6.1.7.5'
 gem 'sprockets', '~> 3.7.2'
 gem 'thor', '~> 1.0'
